@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="IMC">
+  <grid id="27dc6" binding="Principal" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="704" height="490"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="cd97b" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="9ff59" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Roboto Light" size="36" style="1"/>
+              <text value="IMC"/>
+            </properties>
+          </component>
+          <component id="38b84" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Roboto Light" size="28" style="1"/>
+              <text value="Índice de Massa Corporal"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="6a816" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="498d9" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Roboto Light" size="24" style="1"/>
+              <text value="Peso"/>
+            </properties>
+          </component>
+          <component id="ab176" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Roboto Light" size="24" style="1"/>
+              <text value="Altura"/>
+            </properties>
+          </component>
+          <component id="251a6" class="javax.swing.JTextField" binding="TF_Peso">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Roboto Light" size="16" style="0"/>
+            </properties>
+          </component>
+          <component id="c088f" class="javax.swing.JTextField" binding="TF_Altura">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Roboto Light" size="16" style="0"/>
+            </properties>
+          </component>
+          <grid id="62aa7" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="3bcee" class="javax.swing.JButton" binding="calcularButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Calcular"/>
+                </properties>
+              </component>
+              <component id="c3cfd" class="javax.swing.JButton" binding="limparCamposButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Limpar Campos"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="1e6dc" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Roboto Light" size="28" style="1"/>
+              <text value="Resultados"/>
+            </properties>
+          </component>
+          <component id="2994c" class="javax.swing.JTextField" binding="TF_IMC">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <font name="Roboto Light" size="20" style="1"/>
+            </properties>
+          </component>
+          <component id="a7bd5" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Roboto Light" size="24" style="1"/>
+              <text value="IMC"/>
+            </properties>
+          </component>
+          <component id="a1050" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Roboto Light" size="24" style="1"/>
+              <text value="Classificação"/>
+            </properties>
+          </component>
+          <component id="aad7c" class="javax.swing.JTextField" binding="TF_Classificacao">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <font name="Roboto Light" size="18" style="0"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
