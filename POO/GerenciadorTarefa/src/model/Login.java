@@ -1,6 +1,7 @@
 package model;
 
 public class Login {
+    public int id;
     public String nome;
     public String email;
     public String senha;
@@ -8,7 +9,7 @@ public class Login {
     public String dataCadastro;
     public String dataAtualizacao;
 
-    public Login() {
+    public Login(String pedro, String mail, String senhaSecreta123, String date) {
     }
 
     public Login(String nome, String email, String senha, String dataCadastro, String dataAtualizacao) {
@@ -23,13 +24,22 @@ public class Login {
     @Override
     public String toString() {
         return "Login{" +
-                "nome='" + nome + '\'' +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
                 ", email='" + email + '\'' +
                 ", senha='" + senha + '\'' +
                 ", ativo=" + ativo +
                 ", dataCadastro='" + dataCadastro + '\'' +
                 ", dataAtualizacao='" + dataAtualizacao + '\'' +
                 '}';
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getNome() {
