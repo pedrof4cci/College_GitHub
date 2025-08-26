@@ -66,7 +66,6 @@ public class FormCadastroLogin extends JFrame{
                 System.out.println("E-mail: " + TF_Email.getText());
                 System.out.println("Senha: " + TF_Senha.getText());*/
 
-
             }
 
         });
