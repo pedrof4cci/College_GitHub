@@ -111,7 +111,7 @@
             <properties/>
             <border type="none"/>
             <children>
-              <component id="ead12" class="javax.swing.JList" binding="list1" default-binding="true">
+              <component id="f9716" class="javax.swing.JTable" binding="table1" default-binding="true">
                 <constraints/>
                 <properties/>
               </component>

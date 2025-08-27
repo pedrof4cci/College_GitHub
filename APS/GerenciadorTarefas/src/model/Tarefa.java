@@ -15,9 +15,20 @@ public class Tarefa {
         this.status = true;
     }
 
+    @Override
+    public String toString() {
+        return "Tarefa{" +
+                "titulo='" + titulo + '\'' +
+                ", descricao='" + descricao + '\'' +
+                ", status=" + status +
+                '}';
+    }
+
     public String getTitulo(){ return titulo; }
 
     public String getDescricao(){ return descricao; }
+
+    public boolean getStatus(){ return status; }
 
 
 
