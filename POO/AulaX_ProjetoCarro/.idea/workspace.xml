@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0b8d51a-0e5b-4056-a451-e618a64f9635" name="Changes" comment="" />
+    <list default="true" id="d0b8d51a-0e5b-4056-a451-e618a64f9635" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Heranca/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Heranca/src/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Heranca/src/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Heranca/src/Venda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GerenciadorTarefa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GerenciadorTarefa/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +23,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
@@ -26,14 +35,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/9789/IdeaProjects/ProjetoCarro/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/College_GitHub/POO/AulaX_ProjetoCarro",
+    "onboarding.tips.debug.path": "C:/Users/9789/IdeaProjects/ProjetoCarro/src/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="FechaduraEletronica" />
