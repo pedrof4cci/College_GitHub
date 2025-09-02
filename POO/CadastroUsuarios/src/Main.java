@@ -11,8 +11,18 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
 
+        TelaPrincipalMenu telaMenu = new TelaPrincipalMenu();
+        telaMenu.setVisible(true); //chama tela menu
+
+        /* TelaPrincipalBotoes tpb = new TelaPrincipalBotoes();
+        tpb.setVisible(true);   //chama tela de botoes
+         */
+
+        /*
         FormCadastroLogin formCadastroLogin = new FormCadastroLogin();
-        formCadastroLogin.setVisible(true);
+        formCadastroLogin.setVisible(true); //chama tela de formulário
+
+         */
 
 
         /*int opcao;

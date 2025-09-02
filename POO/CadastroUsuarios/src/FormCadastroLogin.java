@@ -52,7 +52,6 @@ public class FormCadastroLogin extends JFrame{
                 String nome = TF_Nome.getText();
                 String email = TF_Email.getText();
                 String senha = TF_Senha.getText();
-
                 String dataCadastro = "2025-08-14" ;
                 String dataAtualizacao= "";
 
