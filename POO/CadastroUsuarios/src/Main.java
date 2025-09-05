@@ -11,8 +11,13 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
 
+
+        TelaAutenticacao telaAutenticacao = new TelaAutenticacao();
+        telaAutenticacao.setVisible(true);
+        /*
         TelaPrincipalMenu telaMenu = new TelaPrincipalMenu();
         telaMenu.setVisible(true); //chama tela menu
+         */
 
         /* TelaPrincipalBotoes tpb = new TelaPrincipalBotoes();
         tpb.setVisible(true);   //chama tela de botoes
