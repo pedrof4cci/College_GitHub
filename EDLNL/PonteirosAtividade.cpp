@@ -4,6 +4,72 @@
 #include <conio.h>
 #include <windows.h>
 
+/*																//1. Cadastro de Softwares para uma Loja de Aplicativos
+typedef struct{
+	int id, avaliacao;
+	char nome[100];
+}Software;
+
+void cadastrar(Software softwares[]){
+	int i=0;
+	if(i <10){
+		printf("Informe o ID: ");
+        scanf("%d", &softwares[i].id);
+        
+        printf("Informe o nome: ");
+        scanf("%s", softwares[i].nome);
+        
+        printf("Informe a avaliação de 1 - 10: ");
+        scanf("%d", &softwares[i].avaliacao);
+        i++;
+	}
+}
+
+void listaSoftware(Software softwares[]) {
+    printf("\n### lista de softwares ###\n");
+    for (int i = 0; i < 10; i++) {
+        printf("ID: %d, Nome: %s, Avaliação: %d\n", softwares[i].id, softwares[i].nome, softwares[i].avaliacao);
+    }
+}
+
+void verAvaliacao(Software softwares[]) {
+    printf("\n### softwares com nota acima de 8 ###\n");
+    for (int i = 0; i < 10; i++) {
+        if (softwares[i].avaliacao >= 8) {
+            printf("ID: %d, Nome: %s, Avaliação: %d\n", softwares[i].id, softwares[i].nome, softwares[i].avaliacao);
+        }
+    }
+}
+
+int main(){										
+	setlocale(LC_ALL,"Portuguese");
+	
+	Software softwares[10];
+	
+	int op;
+	do{
+	printf("\n---------------------------------");
+	printf("\n-      loja de aplicativos      -");
+	printf("\n---------------------------------");
+	printf("\n 1. Cadastrar software  		 ");
+	printf("\n 2. Listar Softwares ");
+	printf("\n 3. Ver softwares mais avaliados ");
+	printf("\n 0. Sair						 ");
+	printf("\n---------------------------------\n");	
+	scanf("%d", &op);
+	
+	if(op==1) cadastrar(softwares);
+	if(op==2) listaSoftware(softwares);
+	if(op==3) verAvaliacao(softwares);
+	
+	}while(op!=0);
+}
+*/
+
+
+
+
+
 /*																	//4. Gerenciamento de Status de Equipamentos de Rede
 int status;
 int *ponteiroStatus;
@@ -50,7 +116,7 @@ int main(){
 */
 
 
-/**/																//6. Análise de Consumo de Banda Larga dos Usuários
+/*																//6. Análise de Consumo de Banda Larga dos Usuários
 int vet[5]={50,501,82,16,204};
 int *ponta;
 
@@ -67,14 +133,12 @@ void calculaMedia(int vet[], int tam){
 
 
 void listaConsumo(int vet[], int tam){
-	int maior[5];
-	
-	for(int i=0; i<5; i++){
-		if(vet[i]>100)maior[i]=vet[i];
-	};
-	for(int y=0; y<tam; y++){
-		if(maior[y]>100)printf("%d ", maior[y]);
-	};
+	printf("Usuários com consumo acima de 100: ");
+    for (int i = 0; i < tam; i++) {
+        if (vet[i] > 100) {
+            printf("%d ", vet[i]);
+        }
+    }
 }
 
 int main(){										
@@ -98,3 +162,4 @@ int main(){
 	
 	}while(op!=0);
 }
+*/
