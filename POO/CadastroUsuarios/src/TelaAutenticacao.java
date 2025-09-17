@@ -26,8 +26,6 @@ public class TelaAutenticacao extends JFrame {
                 String senha = new String(senhaTF.getPassword());
                 System.out.println(senha);
                 System.out.println(email);
-
-                if
             }
         });
         sairButton.addActionListener(new ActionListener() {

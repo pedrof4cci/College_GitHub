@@ -5,6 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b79c84d9-d28c-4ada-8943-28e22f2c711c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../APS/Aula06_ProjetoSwing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../APS/Aula06_ProjetoSwing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../APS/Aula06_ProjetoSwing/out/production/ProjetoSwing1/IMC$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../APS/Aula06_ProjetoSwing/out/production/ProjetoSwing1/IMC$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../APS/Aula06_ProjetoSwing/out/production/ProjetoSwing1/IMC$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../APS/Aula06_ProjetoSwing/out/production/ProjetoSwing1/IMC$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../APS/Aula06_ProjetoSwing/out/production/ProjetoSwing1/IMC.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../APS/Aula06_ProjetoSwing/out/production/ProjetoSwing1/IMC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../APS/Aula06_ProjetoSwing/out/production/ProjetoSwing1/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../APS/Aula06_ProjetoSwing/out/production/ProjetoSwing1/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../APS/Aula06_ProjetoSwing/out/production/ProjetoSwing1/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../APS/Aula06_ProjetoSwing/out/production/ProjetoSwing1/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../APS/Aula06_ProjetoSwing/out/production/ProjetoSwing1/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../APS/Aula06_ProjetoSwing/out/production/ProjetoSwing1/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../APS/Aula06_ProjetoSwing/out/production/ProjetoSwing1/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../APS/Aula06_ProjetoSwing/out/production/ProjetoSwing1/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../APS/Aula06_ProjetoSwing/out/production/ProjetoSwing1/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../APS/Aula06_ProjetoSwing/out/production/ProjetoSwing1/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../APS/Aula06_ProjetoSwing/out/production/ProjetoSwing1/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AulaX_ProjetoCarro/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AulaX_ProjetoCarro/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CadastroUsuarios/out/production/GerenciadorTarefa/FormCadastroLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CadastroUsuarios/out/production/GerenciadorTarefa/FormCadastroLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CadastroUsuarios/out/production/GerenciadorTarefa/TelaAutenticacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CadastroUsuarios/out/production/GerenciadorTarefa/TelaPrincipalBotoes$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CadastroUsuarios/out/production/GerenciadorTarefa/TelaPrincipalBotoes$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CadastroUsuarios/out/production/GerenciadorTarefa/TelaPrincipalBotoes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CadastroUsuarios/out/production/GerenciadorTarefa/TelaPrincipalMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CadastroUsuarios/out/production/GerenciadorTarefa/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CadastroUsuarios/out/production/GerenciadorTarefa/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CadastroUsuarios/out/production/GerenciadorTarefa/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CadastroUsuarios/out/production/GerenciadorTarefa/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CadastroUsuarios/out/production/GerenciadorTarefa/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CadastroUsuarios/out/production/GerenciadorTarefa/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CadastroUsuarios/out/production/GerenciadorTarefa/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CadastroUsuarios/out/production/GerenciadorTarefa/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CadastroUsuarios/out/production/GerenciadorTarefa/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CadastroUsuarios/out/production/GerenciadorTarefa/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CadastroUsuarios/out/production/GerenciadorTarefa/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CadastroUsuarios/src/TelaAutenticacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CadastroUsuarios/src/TelaAutenticacao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,9 +68,10 @@
   &quot;keyToString&quot;: {
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lopes.9964/College_GitHub/POO/GerenciadorTarefa&quot;
+    &quot;last_opened_file_path&quot;: &quot;/home/pedro/College_GitHub/APS/GerenciadorTarefas&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

@@ -5,7 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e83a4ea-573d-4b8a-a216-2dbc7bea6186" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SMA/ProjectSapato/src/Screens/LoginPage.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SMA/ProjectSapato/src/Screens/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SMA/ProjectSapato/src/Screens/ProductCadastroPage.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SMA/ProjectSapato/src/Screens/ProductCadastroPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SMA/ProjectSapato/src/Screens/ProductListPage.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SMA/ProjectSapato/src/Screens/ProductListPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SMA/ProjectSapato/src/Screens/UserCadastroPage.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SMA/ProjectSapato/src/Screens/UserCadastroPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SMA/ProjectSapato/src/Screens/VendasPage.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SMA/ProjectSapato/src/Screens/VendasPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06_ProjetoSwing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Aula06_ProjetoSwing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06_ProjetoSwing/out/production/ProjetoSwing1/IMC$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Aula06_ProjetoSwing/out/production/ProjetoSwing1/IMC$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06_ProjetoSwing/out/production/ProjetoSwing1/IMC$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Aula06_ProjetoSwing/out/production/ProjetoSwing1/IMC$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06_ProjetoSwing/out/production/ProjetoSwing1/IMC.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Aula06_ProjetoSwing/out/production/ProjetoSwing1/IMC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06_ProjetoSwing/out/production/ProjetoSwing1/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06_ProjetoSwing/out/production/ProjetoSwing1/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06_ProjetoSwing/out/production/ProjetoSwing1/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06_ProjetoSwing/out/production/ProjetoSwing1/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06_ProjetoSwing/out/production/ProjetoSwing1/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06_ProjetoSwing/out/production/ProjetoSwing1/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06_ProjetoSwing/out/production/ProjetoSwing1/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06_ProjetoSwing/out/production/ProjetoSwing1/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06_ProjetoSwing/out/production/ProjetoSwing1/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06_ProjetoSwing/out/production/ProjetoSwing1/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aula06_ProjetoSwing/out/production/ProjetoSwing1/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/AulaX_ProjetoCarro/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO/AulaX_ProjetoCarro/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/CadastroUsuarios/out/production/GerenciadorTarefa/FormCadastroLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO/CadastroUsuarios/out/production/GerenciadorTarefa/FormCadastroLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/CadastroUsuarios/out/production/GerenciadorTarefa/TelaAutenticacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/CadastroUsuarios/out/production/GerenciadorTarefa/TelaPrincipalBotoes$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/CadastroUsuarios/out/production/GerenciadorTarefa/TelaPrincipalBotoes$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/CadastroUsuarios/out/production/GerenciadorTarefa/TelaPrincipalBotoes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/CadastroUsuarios/out/production/GerenciadorTarefa/TelaPrincipalMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/CadastroUsuarios/out/production/GerenciadorTarefa/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/CadastroUsuarios/out/production/GerenciadorTarefa/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/CadastroUsuarios/out/production/GerenciadorTarefa/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/CadastroUsuarios/out/production/GerenciadorTarefa/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/CadastroUsuarios/out/production/GerenciadorTarefa/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/CadastroUsuarios/out/production/GerenciadorTarefa/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/CadastroUsuarios/out/production/GerenciadorTarefa/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/CadastroUsuarios/out/production/GerenciadorTarefa/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/CadastroUsuarios/out/production/GerenciadorTarefa/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/CadastroUsuarios/out/production/GerenciadorTarefa/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/CadastroUsuarios/out/production/GerenciadorTarefa/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/CadastroUsuarios/src/TelaAutenticacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO/CadastroUsuarios/src/TelaAutenticacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/GerenciadorTarefa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO/GerenciadorTarefa/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +83,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/lopes.9964/College_GitHub/POO/GerenciadorTarefa"
+    "last_opened_file_path": "/home/pedro/College_GitHub/APS/PlannerProject"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
