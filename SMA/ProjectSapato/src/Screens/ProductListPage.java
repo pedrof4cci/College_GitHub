@@ -8,4 +8,5 @@ public class ProductListPage {
     private JButton atualizarButton;
     private JButton cadastrarButton;
     private JButton excluirButton;
+    private JButton vendaButton;
 }
