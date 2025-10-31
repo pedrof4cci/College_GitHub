@@ -32,16 +32,16 @@ void login(){
 }
 
 void menu(){
-    printf("\n#######################################################################\n");
-    printf("                            Loja de Sapatos\n");
-    printf("\n#######################################################################\n");
-    printf("                     Menu de Operacoes:\n");
-    printf("                     1 - Cadastrar Produto\n");
-    printf("                     2 - Listar Produtos\n");
-    printf("                     3 - Vender Produto\n");
-    printf("                     4 - Cadastrar Usuario\n");
-    printf("                     0 - Sair\n");
-    printf("\n#######################################################################\n");
+    printf("\n##########################\n");
+    printf("      Loja de Sapatos\n");
+    printf("\n##########################\n");
+    printf("Menu de Operacoes:\n");
+    printf("1 - Cadastrar Produto\n");
+    printf("2 - Listar Produtos\n");
+    printf("3 - Vender Produto\n");
+    printf("4 - Cadastrar Usuario\n");
+    printf("0 - Sair\n");
+    printf("\n###########################\n");
 }
 
 void cadastrarProduto(){
@@ -61,33 +61,42 @@ void cadastrarUsuario(){
 }
 
 int main(){
-    int op, a, b;
+    int op;
 
     login();
-    menu();
+    
+    do {
+        menu();
+        scanf("%d", &op);
 
-    scanf("%d", &op);
+        switch(op){
+            case 1:
+                cadastrarProduto();
+                break;
+            case 2:
+                listarProdutos();
+                break;
+            case 3:
+                venderProduto();
+                break;
+            case 4:
+                cadastrarUsuario();
+                break;
+            case 0:
+                printf("\nEncerrando o programa. Ate logo!\n");
+                break;
+            default:
+                printf("\nOperacao invalida! Tente novamente.\n");
+        }
 
+        if(op != 0){
+            printf("\nPressione ENTER para continuar...");
+            getchar(); // Limpa o buffer
+            getchar(); // Espera o ENTER
+            system("clear || cls");
+        }
 
-    switch(op){
-        case 1:
-            cadastrarProduto();
-            break;
-        case 2:
-            listarProdutos();
-            break;
-        case 3:
-            venderProduto();
-            break;
-        case 4:
-            cadastrarUsuario();
-            break;
-        case 0:
-            printf("Encerrando o programa.\n");
-            break;
-        default:
-            printf("Operacao invalida\n");
-    }
+    } while(op != 0);
 
     return 0;
 }
