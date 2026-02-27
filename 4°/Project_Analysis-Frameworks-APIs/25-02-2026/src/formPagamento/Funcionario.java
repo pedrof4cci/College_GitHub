@@ -1,6 +1,6 @@
 package formPagamento;
 
-public class Funcionario {
+public abstract class Funcionario {
     private String CPF;
     private String Nome;
     private int Telefone;
@@ -13,36 +13,16 @@ public class Funcionario {
         this.Email=Email;
     }
 
+    public abstract void exibirDetalhes();
+
 
     public String getCPF() {
         return CPF;
-    }
-
-    public void setCPF(String CPF) {
-        this.CPF = CPF;
     }
 
     public String getNome() {
         return Nome;
     }
 
-    public void setNome(String nome) {
-        Nome = nome;
-    }
 
-    public int getTelefone() {
-        return Telefone;
-    }
-
-    public void setTelefone(int telefone) {
-        Telefone = telefone;
-    }
-
-    public String getEmail() {
-        return Email;
-    }
-
-    public void setEmail(String email) {
-        Email = email;
-    }
 }

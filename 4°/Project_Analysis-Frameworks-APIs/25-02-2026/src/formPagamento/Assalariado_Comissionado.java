@@ -22,11 +22,15 @@ public class Assalariado_Comissionado extends Funcionario {
         this.total_vendas=total_vendas;
     }
 
-    public void calcula_receber_mensal_comissionado(){
-        float total_receber=0;
-        total_receber = (total_vendas / percentual_comissao) + salario_mensal;
-        System.out.println(total_receber);
+    @Override
+    public void exibirDetalhes(){
+        System.out.println("Nome: " + getNome() + "| CPF: " + getCPF() + " | Salário calculado: " + calcula_receber_mensal_comissionado());
     }
+
+    public float calcula_receber_mensal_comissionado(){
+        return  (total_vendas / percentual_comissao) + salario_mensal;
+    }
+
 
 
 

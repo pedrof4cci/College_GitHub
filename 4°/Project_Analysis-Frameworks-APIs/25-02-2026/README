@@ -1,0 +1,7 @@
+Opa tudo certo professor?
+
+
+
+O esquema tá assim, Funcionario <classe pai>, as outras são filhas e herdam as caracteristicas de Funcionario
+
+Na main, quando seleciona uma opção ele pega os dados, cria o objeto e joga em um arraylist

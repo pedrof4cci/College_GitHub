@@ -18,21 +18,21 @@ public class Horista extends Funcionario{
         this.minutos_trabalhados=minutos_trabalhados;
     }
 
-    public void calcula_recebimento_por_hora_trabalhada(){
-        float total_a_receber = 0;
-        int hora_extra = 0;
+    public float calcula_recebimento_por_hora_trabalhada(){
         int convert_pra_hora = minutos_trabalhados / 60;
 
         if (convert_pra_hora > 160){
-            hora_extra = convert_pra_hora - 160;
-            total_a_receber = (float) ((valor_hora_trabalhada * 160) + (valor_hora_trabalhada * 1.5 * hora_extra ));
-            System.out.println(total_a_receber);
+            int hora_extra = convert_pra_hora - 160;
+            return (float) ((valor_hora_trabalhada * 160) + (valor_hora_trabalhada * 1.5 * hora_extra));
         }else{
-            total_a_receber = (float) (valor_hora_trabalhada*160);
-            System.out.println(total_a_receber);
+            return valor_hora_trabalhada*160;
         }
     }
 
+    @Override
+    public void exibirDetalhes(){
+        System.out.println("Nome: " + getNome() + "| CPF: " + getCPF() + " | Salário calculado: " + calcula_recebimento_por_hora_trabalhada());
+    }
 
 
 

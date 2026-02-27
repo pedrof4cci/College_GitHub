@@ -18,5 +18,13 @@ public class Comissionado extends Funcionario{
         this.total_vendas_mensal=total_vendas_mensal;
     }
 
+    public float calcula_comissao(){
+        return total_vendas_mensal / percentual_comissao;
+    }
+
+    @Override
+    public void exibirDetalhes(){
+        System.out.println("Nome: " + getNome() + "| CPF: " + getCPF() + " | Salário calculado: " + calcula_comissao());
+    }
 
 }

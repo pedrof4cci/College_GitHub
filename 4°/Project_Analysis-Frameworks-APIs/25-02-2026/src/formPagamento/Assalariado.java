@@ -20,12 +20,9 @@ public class Assalariado extends Funcionario{
         return salario_fixo_mensal;
     }
 
-
-    public float getSalario_fixo_mensal() {
-        return salario_fixo_mensal;
+    @Override
+    public void exibirDetalhes(){
+        System.out.println("Nome: " + getNome() + "| CPF: " + getCPF() + " | Salário calculado: " + salario_fixo_mensal);
     }
 
-    public void setSalario_fixo_mensal(float salario_fixo_mensal) {
-        this.salario_fixo_mensal = salario_fixo_mensal;
-    }
 }
