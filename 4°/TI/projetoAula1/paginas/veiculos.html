@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Veículos</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            gap: 30px;
+        }
+        h1,
+        h2 {
+            color: #333;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .veiculo {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            width: 200px;
+        }
+
+        a {
+            display: block;
+            margin: 10px 0;
+            text-decoration: none;
+            background: #007BFF;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        a:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Lista de Veículos</h1>
+    <div class="container">
+        <div class="veiculo">
+            <h2>Veículo 1</h2>
+            <p>Modelo: Onix</p>
+            <p>Ano: 2020</p>
+            <a href="/veiculo/1">Ver detalhes</a>
+        </div>
+
+        <div class="veiculo">
+            <h2>Veículo 2</h2>
+            <p>Modelo: HB20</p>
+            <p>Ano: 2022</p>
+            <a href="/veiculo/2">Ver detalhes</a>
+        </div>
+
+        <div class="veiculo">
+            <h2>Veículo 3</h2>
+            <p>Modelo: Corolla</p>
+            <p>Ano: 2023</p>
+            <a href="/veiculo/3">Ver detalhes</a>
+        </div>
+
+        <div class="veiculo">
+            <h2>Veículo 4</h2>
+            <p>Modelo: Creta</p>
+            <p>Ano: 2020</p>
+            <a href="/veiculo/4">Ver detalhes</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
