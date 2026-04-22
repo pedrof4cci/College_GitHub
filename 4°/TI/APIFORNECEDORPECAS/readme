@@ -1,0 +1,3 @@
+.env >> configurações do ambiente, você não deve subir ele para produção ele deve ficar visivel apenas no servidor onde a aplicação estiver rodando (não pode haver comentários dentro dele).
+
+express >> o que caralhos é isso?
