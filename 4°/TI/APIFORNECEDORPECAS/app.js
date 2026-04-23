@@ -8,11 +8,14 @@ app.use(express.json());
 
 
 
-const itensRoutes = require("./routes/itensRoutes") //DECLARAMOS A ROTA NO APP
+const itensRoutes = require("./routes/itensRoutes"); //DECLARAMOS A ROTA NO APP
 
 app.use("/itens", itensRoutes);
 
 
+const fornecedoresRoutes = require("./routes/fornecedoresRoutes");
+
+app.use("/fornecedores", fornecedoresRoutes);
 
 
 
